@@ -35,7 +35,7 @@ class SharedForm extends StatefulWidget {
 // This class holds data related to the Form.
 class SharedFormState extends State<SharedForm> implements SNWebSocketCallback {
 
-  static final IP = '35.230.15.201';
+  static final IP = 'localhost';
 
   final controller = TextEditingController();
   final formKey = GlobalKey<FormState>();
@@ -63,7 +63,7 @@ class SharedFormState extends State<SharedForm> implements SNWebSocketCallback {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Shared Canvas'),
+        title: Text('Shared Note'),
       ),
       body: Container(
         padding: EdgeInsets.fromLTRB(10, 10, 10, 0),

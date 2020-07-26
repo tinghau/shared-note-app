@@ -35,8 +35,7 @@ class SharedForm extends StatefulWidget {
 // This class holds data related to the Form.
 class SharedFormState extends State<SharedForm> {
 
-  static final IP = '35.230.15.201';
-//  static final IP = '10.0.2.2';
+  static final IP = '10.0.2.2';
 
   final controller = TextEditingController();
   final formKey = GlobalKey<FormState>();
